@@ -1,12 +1,21 @@
 {
+    "name": "royvermeulen/datorum-database",
+    "description": "Database interface for all datorum packages",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DatorumDatabase\\": "src/"
+            "Royvermeulen\\DatorumDatabase\\": "src/"
         }
     },
-    "require": {
-        "php": "^8.2"
-    },
+    "authors": [
+        {
+            "name": "Roy Vermeulen",
+            "email": "roywilliamvermeulen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
     "require-dev": {
         "phpunit/phpunit": "^11"
     }
